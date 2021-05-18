@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/firat/Projects/Class3-hw/Class3-hw/Class3-hw.csproj",
+      "projectUniqueName": "/Users/firat/Documents/Class3-hw/Class3-hw/Class3-hw.csproj",
       "projectName": "Class3-hw",
-      "projectPath": "/Users/firat/Projects/Class3-hw/Class3-hw/Class3-hw.csproj",
+      "projectPath": "/Users/firat/Documents/Class3-hw/Class3-hw/Class3-hw.csproj",
       "packagesPath": "/Users/firat/.nuget/packages/",
-      "outputPath": "/Users/firat/Projects/Class3-hw/Class3-hw/obj/",
+      "outputPath": "/Users/firat/Documents/Class3-hw/Class3-hw/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/firat/.config/NuGet/NuGet.Config"

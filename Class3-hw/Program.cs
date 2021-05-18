@@ -53,11 +53,15 @@ namespace Class3_hw
             }
         }
 
-        public override void Print()
+        public override int GetHashCode()
         {
-            Console.WriteLine($"Студент - { Surname }, Курс - { Course }, Номер зачетной книги - { GradeBook }");
+            return Surname.GetHashCode();
         }
 
+        public override void Print()
+        {
+            Console.WriteLine($"Студент - { Surname } Курс - { Course.ToString() } Номер зачетной книги - { GradeBook.ToString() } ХашКод Фамилии - { GetHashCode() } Это класс - { GetType() }");
+        }
     }
 
     class Aspirant : Person
@@ -97,10 +101,14 @@ namespace Class3_hw
         {
             this.slideShow = slideShow;
         }
+        public override int GetHashCode()
+        {
+            return Surname.GetHashCode();
+        }
 
         public override void Print()
         {
-                Console.WriteLine($"Аспирант - { Surname } Курс - { Course } Номер зачетной книги - { GradeBook } Название презентации - { SlideShow }");
+                Console.WriteLine($"Аспирант - { Surname } Курс - { Course.ToString() } Номер зачетной книги - { GradeBook.ToString() } Название презентации - { SlideShow } ХашКод Фамилии - { GetHashCode() } Это класс - {GetType()}");
         }
     }
 
@@ -129,6 +137,7 @@ namespace Class3_hw
                             Console.WriteLine("Введите номер зачетной книги");
                             int gradeBook = ForGradeBookCheck();
                             student[studentCounter] = new Student { Surname = surname, Course = course, GradeBook = gradeBook };
+                            student.ToString();
                             studentCounter++;
                             Console.WriteLine("\nНажимайте на любую клавишу\n");
                             break;
@@ -363,12 +372,11 @@ namespace Class3_hw
                         surnameCompare = true;
                     }
                 }
-                if (humanSurname.Length < 1)
-                {
-                    Console.WriteLine("Имя не может быть меньше 1 трёх букв, попробуйте ещё");
-                    surnameCompare = false;
-                }
-
+                //if (humanSurname.Length < 1)
+                //{
+                //    Console.WriteLine("Имя не может быть меньше 1 трёх букв, попробуйте ещё");
+                //    surnameCompare = false;
+                //}
 
             }
             while (surnameCompare == false);
@@ -378,7 +386,6 @@ namespace Class3_hw
         static int ForGradeBookCheck()
         {
             int number;
-
             for (; ; )
             {
                 string checkingNumber = Console.ReadLine();
@@ -389,6 +396,7 @@ namespace Class3_hw
                 {
                     return number;
                 }
+
                 else
                 {
                     Console.Write("Вы ввели неправильно, введите от 1 до 9999: ");
@@ -424,7 +432,6 @@ namespace Class3_hw
             for (; ; )
             {
                 string checkingNumber = Console.ReadLine();
-                ;
                 if (Int32.TryParse(checkingNumber, out number) && number > 0)
                 {
                     return number;

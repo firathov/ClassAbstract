@@ -10,3 +10,15 @@
 /Users/firat/Projects/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.dll
 /Users/firat/Projects/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.pdb
 /Users/firat/Projects/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.genruntimeconfig.cache
+/Users/firat/Documents/Class3-hw/Class3-hw/bin/Debug/netcoreapp3.1/Class3-hw.deps.json
+/Users/firat/Documents/Class3-hw/Class3-hw/bin/Debug/netcoreapp3.1/Class3-hw.runtimeconfig.json
+/Users/firat/Documents/Class3-hw/Class3-hw/bin/Debug/netcoreapp3.1/Class3-hw.runtimeconfig.dev.json
+/Users/firat/Documents/Class3-hw/Class3-hw/bin/Debug/netcoreapp3.1/Class3-hw.dll
+/Users/firat/Documents/Class3-hw/Class3-hw/bin/Debug/netcoreapp3.1/Class3-hw.pdb
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.csprojAssemblyReference.cache
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.AssemblyInfoInputs.cache
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.AssemblyInfo.cs
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.csproj.CoreCompileInputs.cache
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.dll
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.pdb
+/Users/firat/Documents/Class3-hw/Class3-hw/obj/Debug/netcoreapp3.1/Class3-hw.genruntimeconfig.cache
