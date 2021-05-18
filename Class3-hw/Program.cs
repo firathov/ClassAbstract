@@ -58,15 +58,6 @@ namespace Class3_hw
             return Surname.GetHashCode();
         }
 
-        public override bool Equals(object obj)
-        {
-            if (obj.GetType() != this.GetType()) return false;
-
-            Person person = (Person)obj;
-            return (this.GradeBook == person.GradeBook);
-        }
-
-
         public override void Print()
         {
             Console.WriteLine($"Студент - { Surname } Курс - { Course.ToString() } Номер зачетной книги - { GradeBook.ToString() } ХашКод Фамилии - { GetHashCode() } Это класс - { GetType() }");
